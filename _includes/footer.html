@@ -1,16 +1,31 @@
-<script src="{{ site.baseurl }}/static/js/plugins.js"></script>
-<script src="{{ site.baseurl }}/static/js/tappy.js"></script>
-<script src="{{ site.baseurl }}/static/js/functional.js"></script>
+<div id="quote" class="pop-window mfp-hide">
+	<div class="wrap">
+        <div class="dt-pop-close dt-icon">close</div>
+		<div class="dt-pop-content">
+            <div id="wufoo-rinnwr0cvifjs"></div>
+            <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+            <script type="text/javascript">var rinnwr0cvifjs;(function(d, t) {
+            var s = d.createElement(t), options = { 'userName':'mikelacourse', 'formHash':'rinnwr0cvifjs',
+            'autoResize':true 'height':'777', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true};
+            s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+            s.onload = s.onreadystatechange = function() {
+                var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                try { rinnwr0cvifjs = new WufooForm();rinnwr0cvifjs.initialize(options);rinnwr0cvifjs.display(); } catch (e) {}};
+                var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+            })(document, 'script');</script>
+        </div>
+    </div>
+	<div class="pop-bg"></div>
+</div>
+
+<script src="{{ site.baseurl }}/static/js/library.js?v1.0"></script>
+<script src="{{ site.baseurl }}/static/js/components.js?v1.0"></script>
 
 <script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:211220,hjsv:5};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+  window.fcWidget.init({
+    token: "b7cff06c-dbda-4ffa-9661-5ddde3776d6f",
+    host: "https://wchat.freshchat.com"
+  });
 </script>
 
 <script>
@@ -22,3 +37,5 @@
   ga('create', 'UA-77764694-1', 'auto');
   ga('send', 'pageview');
 </script>
+
+</body>
