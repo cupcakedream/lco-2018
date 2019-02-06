@@ -32,7 +32,7 @@ h2 {font-weight:700;font-size:40px;line-height:50px;margin:0 0 50px 0;}
 /* Welcome */
 #welcome {color:#fff;background-image:url('../images/background.jpg');text-align:center;background-attachment:fixed;
     background-size:cover;background-position:top center;padding:0;height:auto;}
-#welcome .wrap {padding:3rem 1rem;}
+#welcome .wrap {padding:3rem 1rem 4rem 1rem;}
 #welcome .logo {max-width:100px;max-width:160px;margin:0 auto;}
 #welcome h1 {margin:20px 0;}
 #welcome h2 {font-size:32px;font-weight:400;margin:0 0 40px 0;}
