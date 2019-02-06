@@ -16,6 +16,8 @@ h2 {font-weight:700;font-size:40px;line-height:50px;margin:0 0 50px 0;}
 .button:hover {background:#fff;border-color:#fff;color:#045691;}
 .button {background:#22bbe4;border-color:#22bbe4;color:#fff;}
 .button.alt {background:#05BF9C;border-color:#05BF9C;color:#fff;}
+.button.alt2 {background:#E4A238;border-color:#E4A238;color:#fff;border-left:10px;}
+.button.alt3 {margin-right:10px;}
 /* .button.alt {background:transparent;border-color:#fff;color:#fff;} */
 .button:hover {background:#fff;border-color:#fff;color:#045691;}
 .button.alt:hover {background:#fff;border-color:#fff;color:#045691;}
@@ -23,11 +25,12 @@ h2 {font-weight:700;font-size:40px;line-height:50px;margin:0 0 50px 0;}
 
 /* Menu */
 #menu {opacity:0;width:100%;text-align:center;position:fixed;top:0;left:0;
-    z-index:10;background:#333;color:#fff;background:#0485be;}
+    z-index:10;background:#333;color:#fff;background:#0485be;padding:10px;}
 #menu.active {opacity:1;top:0;}
-#menu .button {border:0;box-sizing:border-box;border-radius:0;background:none;
-    color:#fff;padding:10px 30px;}
-#menu .button:hover {background:#22bbe4;}
+#menu .button {font-size:13px;padding:4px 25px;}
+/* #menu .button {border:0;box-sizing:border-box;border-radius:0;background:none;
+    color:#fff;padding:10px 30px;} */
+/* #menu .button:hover {background:#22bbe4;} */
 
 /* Welcome */
 #welcome {color:#fff;background-image:url('../images/background.jpg');text-align:center;background-attachment:fixed;
@@ -134,7 +137,8 @@ h2 {font-weight:700;font-size:40px;line-height:50px;margin:0 0 50px 0;}
 
 @media screen and ( max-width:800px ) {
 
-    #menu .button {font-size:13px;padding:10px;}
+    /* #menu .button {font-size:13px;padding:10px;} */
+    #menu .button {font-size:13px;padding:4px 25px;}
 
     .wrap {padding:0 15px;}
     #faqs {padding:50px 0;}
@@ -156,5 +160,14 @@ h2 {font-weight:700;font-size:40px;line-height:50px;margin:0 0 50px 0;}
 @media screen and ( max-width:640px ) {
 
     #welcome .button, .button.alt {margin:20px 0 0;display:block;}
+    #menu .button {font-size:13px;padding:2px 15px;display:inline-block;margin:0;}
+    #menu .button span {display:none;}
+
+}
+
+@media screen and ( max-width:340px ) {
+
+    #welcome h1 {font-size:52px;line-height:62px;}
+    #welcome h2 {font-size:22px;line-height:32px;}
 
 }

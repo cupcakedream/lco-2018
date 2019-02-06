@@ -13,7 +13,7 @@ $(document).ready( function() {
     // });
 
     $('.contact').click( function() {
-
+        window.fcWidget.open();window.fcWidget.show();
     });
 
     $('.project').magnificPopup({
