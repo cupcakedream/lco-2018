@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mike Lacourse | Designer / Web Developer</title>
-    <description>I'm equal parts visual designer, back-end developer, front-end developer, and marketing consultant. I work especially well with small business’s and entrepeneurs who are looking for help with the technical side of their business.
+    <title>Lacourse Design Co. | Websites &amp; Web Apps</title>
+    <description>We’re a small design shop based in Portland, Maine that’s big on craftsmenship. From branding to design to coding, we do it right.
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Feb 2019 14:36:31 -0500</pubDate>
-    <lastBuildDate>Tue, 05 Feb 2019 14:36:31 -0500</lastBuildDate>
+    <pubDate>Wed, 06 Feb 2019 10:55:26 -0500</pubDate>
+    <lastBuildDate>Wed, 06 Feb 2019 10:55:26 -0500</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
   </channel>

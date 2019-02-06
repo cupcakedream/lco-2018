@@ -7,11 +7,14 @@ $(document).ready( function() {
         }, 500);
     });
 
-    $('.pop-open').magnificPopup({
-        type: 'inline',
-        autoHeight:true,
-    });
+    // $('.pop-open').magnificPopup({
+    //     type: 'inline',
+    //     autoHeight:true,
+    // });
 
+    $('.contact').click( function() {
+
+    });
 
     $('.project').magnificPopup({
         type: 'inline',

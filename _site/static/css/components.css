@@ -16,6 +16,7 @@ h2 {font-weight:700;font-size:40px;line-height:50px;margin:0 0 50px 0;}
 .button:hover {background:#fff;border-color:#fff;color:#045691;}
 .button {background:#22bbe4;border-color:#22bbe4;color:#fff;}
 .button.alt {background:#05BF9C;border-color:#05BF9C;color:#fff;}
+/* .button.alt {background:transparent;border-color:#fff;color:#fff;} */
 .button:hover {background:#fff;border-color:#fff;color:#045691;}
 .button.alt:hover {background:#fff;border-color:#fff;color:#045691;}
 .shadow {text-shadow:1px 1px 1px rgba(0,0,0,.1);}
@@ -118,6 +119,9 @@ h2 {font-weight:700;font-size:40px;line-height:50px;margin:0 0 50px 0;}
 #work .reconstruction .overlay {background-color:#000;opacity:.8;}
 
 #footer {text-align:center;font-size:18px;color:#999;}
+
+#quote {max-width:640px;margin:auto;padding:2rem 1rem;}
+#quote input {border:1px solid #eee;background:#fff;padding:.4rem;}
 
 @media screen and ( max-width:1024px ) {
 
