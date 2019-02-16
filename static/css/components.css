@@ -7,7 +7,7 @@ body,html {font-family: 'Vollkorn', serif;font-size:23px;line-height:40px;
 /* Elements */
 a:focus {outline:none;}
 h1 {font-size:72px;line-height:85px;}
-h2 {font-weight:700;font-size:40px;line-height:50px;margin:0 0 50px 0;}
+h2 {font-weight:700;font-size:35px;line-height:45px;margin:0 0 50px 0;}
 .button {display:inline-block;border:2px solid #22bbe4;font-weight:700;font-size:15px;
     border-radius:5px;font-family: 'Montserrat', sans-serif;padding:8px 30px;
     text-decoration:none;letter-spacing:1px;background:#22bbe4;color:#fff;}
@@ -36,7 +36,8 @@ h2 {font-weight:700;font-size:40px;line-height:50px;margin:0 0 50px 0;}
 #welcome {color:#fff;background-image:url('../images/background.jpg');text-align:center;background-attachment:fixed;
     background-size:cover;background-position:top center;padding:0;height:auto;}
 #welcome .wrap {padding:3rem 1rem 4rem 1rem;}
-#welcome .logo {max-width:100px;max-width:160px;margin:0 auto;}
+#welcome .subtitle {margin-top:.4rem;}
+#welcome .logo {max-width:100px;max-width:160px;max-width:150px;margin:0 auto;}
 #welcome h1 {margin:20px 0;}
 #welcome h2 {font-size:32px;font-weight:400;margin:0 0 40px 0;}
 #welcome p {font-size:20px;margin:20px 0 0 0;}
@@ -78,7 +79,7 @@ h2 {font-weight:700;font-size:40px;line-height:50px;margin:0 0 50px 0;}
 .owl-carousel button:focus {outline:none;}
 
 /* Work */
-#work {background:#fff;text-align:center;padding:80px 0;}
+#work {background:#fff;text-align:center;padding:15px 0;}
 #work .wrap {position:relative;z-index:1;max-width:100%;padding:20px 0;}
 #work .project {position:relative;margin:auto;max-width:880px;cursor:pointer;margin-bottom:75px;}
 #work .project:last-child {margin-bottom:0;}
