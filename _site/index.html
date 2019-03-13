@@ -68,14 +68,14 @@
 		<div class="question">
 			<h3>How much does a basic website cost?</h3>
 			<p>A basic, barebones website typically costs between $2,000 - $3,000.
-			We also  offer discounts to organizations dedicated to social justice</p>
+			We also  offer discounts to organizations dedicated to social justice.</p>
 		</div>
 		<div class="question">
-			<h3>What makes you different than other agencies or studios?</h3>
+			<h3>What makes you different than other companies?</h3>
 			<p>Most shops seperate designers and developers, and often struggle to bridge the
 			communication gap. We're developers who are also skilled designers, and our work reflects
-			our holistic approach to design and development. The result is websites and apps
-			that are beautiful inside and out. This is the future of web development.</p>
+			a more holistic approach to the development process. The results are websites and apps
+			that are beautiful inside and out.</p>
 		</div>
 
 	</div>
@@ -455,11 +455,109 @@
 <script src="/static/js/library.js?v1.0"></script>
 <script src="/static/js/components.js?v1.0"></script>
 <script src="/static/js/wufoo.js"></script>
+<script src="https://snippets.freshchat.com/js/fc-pre-chat-form-v2.js"></script>
 
 <script>
+
+	var preChatTemplate = {
+	  //Form header color and Submit button color.
+	  mainbgColor: '#0aa4db',
+	  //Form Header Text and Submit button text color.
+	  maintxColor: '#fff',
+	  //Chat Form Title
+	  heading: 'GadgetGod',
+	  //Chat form Welcome Message
+	  textBanner: 'We can\'t wait to talk to you. But first, please take a couple of moments to tell us a bit about yourself.',
+	  //Submit Button Label.
+	  SubmitLabel: 'Start Chat',
+	  //Fields List - Maximum is 5
+	  //All the values are mandatory and the script will not work if not available.
+	  fields : {
+		field1 : {
+		  //Type can be either text or title
+		  type: "title",
+		  //Label for Field Title, can be in any language
+		  label: "Title",
+		  //Field ID for Title
+		  fieldId: "title",
+		  //Required "yes" or "no"
+		  required: "yes",
+		  //Error text to be displayed
+		  error: "Please Enter a valid Title"
+		},
+		field2 : {
+		  //Type for Name - Do not Change
+		  type: "name",
+		  //Label for Field Name, can be in any language
+		  label: "Name",
+		  //Default - Field ID for Name - Do Not Change
+		  fieldId: "name",
+		  //Required "yes" or "no"
+		  required: "yes",
+		  //Error text to be displayed
+		  error: "Please Enter a valid name"
+		},
+		field3 : {
+		  //Type for Email - Do Not Change
+		  type: "email",
+		  //Label for Field Email, can be in any language
+		  label: "Email",
+		  //Default - Field ID for Email - Do Not Change
+		  fieldId: "email",
+		  //Required "yes" or "no"
+		  required: "yes",
+		  //Error text to be displayed
+		  error: "Please Enter a valid Email"
+		},
+		field4 : {
+		  //Type for Phone - Do Not Change
+		  type: "phone",
+		  //Label for Field Phone, can be in any language
+		  label: "Phone",
+		  //Default - Field ID for Phone - Do Not Change
+		  fieldId: "phone",
+		  //Required "yes" or "no"
+		  required: "yes",
+		  //Error text to be displayed
+		  error: "Please Enter a valid Phone Number"
+		},
+		field5 : {
+		  //Type for Dropdown
+		  type: "dropdown",
+		  //Label for Field Dropdown, can be in any language
+		  label: "Plan",
+		  //Field ID for Plan Dropdown
+		  fieldId: "plan",
+		  //Required "yes" or "no"
+		  required: "yes",
+		  //Error text to be displayed
+		  error: "Please select an option",
+		  //Options for the Dropdown field
+		  options: ['Sprout','Blossom','Garden','Estate','Forest']
+		}
+	  }
+};
+
   window.fcWidget.init({
     token: "b7cff06c-dbda-4ffa-9661-5ddde3776d6f",
-    host: "https://wchat.freshchat.com"
+    host: "https://wchat.freshchat.com",
+	config : {
+		content: {
+			headers: {
+			  chat: 'Contact Us',
+			  chat_help: 'What do you need help with?',
+			}
+		},
+		cssNames: {
+	        //The below element is mandatory. Please add any custom class or leave the default.
+	        widget: 'custom_fc_frame',
+	        //The below element is mandatory. Please add any custom class or leave the default.
+	        expanded: 'custom_fc_expanded'
+		}
+	},
+	onInit: function() {
+      fcPreChatform.fcWidgetInit(preChatTemplate);
+    }
   });
 </script>
 

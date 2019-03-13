@@ -24,7 +24,7 @@ h2 {font-weight:700;font-size:35px;line-height:45px;margin:0 0 50px 0;}
 .shadow {text-shadow:1px 1px 1px rgba(0,0,0,.1);}
 
 /* Menu */
-#menu {opacity:0;width:100%;text-align:center;position:fixed;top:0;left:0;
+#menu {opacity:1;width:100%;text-align:center;position:fixed;top:-100%;left:0;
     z-index:10;background:#333;color:#fff;background:#0485be;padding:10px;}
 #menu.active {opacity:1;top:0;}
 #menu .button {font-size:13px;padding:4px 25px;}
@@ -37,10 +37,10 @@ h2 {font-weight:700;font-size:35px;line-height:45px;margin:0 0 50px 0;}
     background-size:cover;background-position:top center;padding:0;height:auto;}
 #welcome .wrap {padding:3rem 1rem 4rem 1rem;}
 #welcome .subtitle {margin-top:.4rem;}
-#welcome .logo {max-width:100px;max-width:160px;max-width:150px;margin:0 auto;}
-#welcome h1 {margin:20px 0;}
-#welcome h2 {font-size:32px;font-weight:400;margin:0 0 40px 0;}
-#welcome p {font-size:20px;margin:20px 0 0 0;}
+#welcome .logo {max-width:140px;margin:0 auto;}
+#welcome h1 {margin:20px auto 20px auto;font-size:72px;line-height:82px;max-width:740px;}
+#welcome h2 {font-size:30px;font-weight:400;margin:0 0 40px 0;}
+#welcome p {font-size:20px;margin:10px 0 0 0;}
 
 /* FAQ's */
 #faqs {text-align:center;padding:100px 0;}
